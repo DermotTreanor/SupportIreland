@@ -28,7 +28,7 @@ body{
 }
 
 #banner-container{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     position: relative;
 }
@@ -45,12 +45,16 @@ body{
 
 #hero-heading{
     font-family:"Satisfy-Regular";
-    font-weight: 150;
-    padding-left: 15px; padding-right: 15px;
+    font-weight:50;
+    padding-left: 35px; padding-right: 35px;
     width: 100%;
-    font-size: 10rem;
+    font-size: 10.9rem;
     color: rgb(255, 255, 255);
     align-items: center;
+}
+#hero-heading > div:nth-child(2){
+    margin-top: -70px;
+    padding-left: 35px;
 }
 
 #hero-quote{
