@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* border: solid 2px black; */
+    width: 100%;
+    max-width: 1700px;
+}
+
+#banner-container{
+    /* border: solid 2px red; */
+    height: 60vh;
+    display: flex;
+    background-color: rgb(83, 255, 192);
+}
+
+#hero-text{
+    /* border: solid 2px blue; */
+    padding-left: 15px; padding-right: 15px;
+    width: 100%;
+    font-size: 6rem;
+    color: rgba(205, 255, 241, 0.89);
+    background-image: linear-gradient(to top right, rgb(109, 221, 255), transparent);
+    display: flex; 
+    align-items: center;
+    flex: 1;
+}
+
+#hero-image-container{
+    /* border: solid 3px black; */
+    opacity: 0.9;
+    flex: 1;
+    overflow: hidden;
+    background-image: url('./group_support_stock.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-paragraph{
+    padding-top: 10px;
+}
+
+
+
+#group-categories-container{
+    /* background-color: red; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.group-category{
+    background-color: aquamarine;
+    width: 20%;
+    height: 20vh;
+
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.9em;
+    color: rgb(9, 120, 100);
+    text-align: center;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.group-category:hover{
+    border: solid 1.6px rgb(0, 121, 93);
+    transform: scale(1.12);
+}
+
+
+.group-category span{
+    display: inline-block;
+    transition: transform 0.7s;
+}
+.group-category:hover span{
+    transform: scale(1.10)
+}
+
