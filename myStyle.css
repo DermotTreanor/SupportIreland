@@ -23,8 +23,7 @@ body{
 
 .container {
     width: 100%;
-    max-width: 1700px;
-    background-color: #b0e9d24d;
+    max-width: 2000px;
 }
 
 #banner-container{
@@ -40,7 +39,7 @@ body{
     z-index: 1;
     flex: 1;
     opacity: 0.8;
-    background-image: linear-gradient(to top right, rgb(107, 233, 178), rgb(48, 215, 215), transparent);
+    background-image: linear-gradient(to top right, rgba(107, 233, 178, 1), rgb(48, 215, 215, 0.6), transparent);
 }
 
 #hero-heading{
@@ -57,9 +56,18 @@ body{
     padding-left: 35px;
 }
 
+/* This is just a horizontal line that we might animate later */
+/* #hero-hr{
+    height: 2px;
+    width: 55%;
+    margin-left: 20px;
+    margin-top: -50px;
+    background-color: white;
+} */
+
 #hero-quote{
     opacity: 1;
-    font-family: Satisfy-Regular;
+    font-family: "Satisfy-Regular";
     font-size: 2.5rem;
     color: white;
     padding: 20px;
@@ -69,30 +77,32 @@ body{
 }
 
 #hero-image-container{
-    /* opacity: 0.5; */
     overflow: hidden;
-    /* background-image: url('./group_support_stock.jpg'); */
-    /* background-image: url("./support-unsplash.jpg"); */
     background-image: url("third-support.jpg");
     background-size: cover;
     background-position: center;
     position: absolute;
     width: 100%;
     height: 100%;
-
     z-index: 0;
 }
 
 
+
+
+
+
+
+
+
+/* Here down is the content of the page after the banner. */
 #content-container{
-    background-color: aliceblue;
+    font-family: sans-serif;
+    background-color: rgb(208, 255, 253);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-
 
 
 #info-container{
@@ -105,10 +115,8 @@ body{
 
 #info-container h2{
     color: rgb(107, 197, 137);
-    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    /* font-family: "PlayFair"; */
     font-weight: lighter;
-    font-size: 4.3rem;
+    font-size: 3.4rem;
     width: 80%;
 }
 
