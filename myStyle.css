@@ -39,7 +39,8 @@ body{
     z-index: 1;
     flex: 1;
     opacity: 0.8;
-    background-image: linear-gradient(to top right, rgba(107, 233, 178, 1), rgb(48, 215, 215, 0.6), transparent);
+    /* background-image: linear-gradient(to top right, rgba(107, 233, 178, 1), rgb(48, 215, 215, 1), transparent); */
+    background-image: linear-gradient(to top right, rgba(107, 233, 178, 1), rgb(48, 215, 215, 1), transparent, transparent);
 }
 
 #hero-heading{
@@ -98,7 +99,7 @@ body{
 /* Here down is the content of the page after the banner. */
 #content-container{
     font-family: sans-serif;
-    background-color: rgb(208, 255, 253);
+    background-color: rgb(236, 253, 247);
     display: flex;
     flex-direction: column;
     align-items: center;
