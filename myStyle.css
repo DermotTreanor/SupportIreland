@@ -2,60 +2,117 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: solid 1px red; */
 }
 
+@font-face {
+    font-family: "PlayFair";
+    src: url("./Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+    font-family: Satisfy-Regular;
+    src: url("/Fonts/Satisfy/Satisfy-Regular.ttf");
+}
 
 body{
-    font-family: "Gill Sans", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(236, 255, 255); */
 }
 
 .container {
-    /* border: solid 2px black; */
     width: 100%;
     max-width: 1700px;
+    background-color: #b0e9d24d;
 }
 
 #banner-container{
-    /* border: solid 2px red; */
-    height: 60vh;
+    height: 70vh;
     display: flex;
-    background-color: rgb(83, 255, 192);
+    position: relative;
 }
 
 #hero-text{
-    /* border: solid 2px blue; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    z-index: 1;
+    flex: 1;
+    opacity: 0.8;
+    background-image: linear-gradient(to top right, rgb(107, 233, 178), rgb(48, 215, 215), transparent);
+}
+
+#hero-heading{
+    font-family:"Satisfy-Regular";
+    font-weight: 150;
     padding-left: 15px; padding-right: 15px;
     width: 100%;
-    font-size: 6rem;
-    color: rgba(205, 255, 241, 0.89);
-    background-image: linear-gradient(to top right, rgb(109, 221, 255), transparent);
-    display: flex; 
+    font-size: 10rem;
+    color: rgb(255, 255, 255);
     align-items: center;
-    flex: 1;
+}
+
+#hero-quote{
+    opacity: 1;
+    font-family: Satisfy-Regular;
+    font-size: 2.5rem;
+    color: white;
+    padding: 20px;
+}
+#quote-author{
+    padding-left: 40px;
 }
 
 #hero-image-container{
-    /* border: solid 3px black; */
-    opacity: 0.9;
-    flex: 1;
+    /* opacity: 0.5; */
     overflow: hidden;
-    background-image: url('./group_support_stock.jpg');
+    /* background-image: url('./group_support_stock.jpg'); */
+    /* background-image: url("./support-unsplash.jpg"); */
+    background-image: url("third-support.jpg");
     background-size: cover;
     background-position: center;
-}
+    position: absolute;
+    width: 100%;
+    height: 100%;
 
+    z-index: 0;
+}
 
 
 #content-container{
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.content-paragraph{
-    padding-top: 10px;
+
+
+
+
+#info-container{
+    text-align: center;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-container h2{
+    color: rgb(107, 197, 137);
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: "PlayFair"; */
+    font-weight: lighter;
+    font-size: 4.3rem;
+    width: 80%;
+}
+
+.info-paragraph{
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
 }
 
 
@@ -65,7 +122,7 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
