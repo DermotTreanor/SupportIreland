@@ -19,16 +19,9 @@
     src: url("./Fonts/Italiana/Italiana-Regular.ttf");
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgb(236, 255, 255); */
-}
-
 
 nav{
-    /* width: 100%; */
+    width: 100%;
     background-color: blue;
 }
 
@@ -37,8 +30,6 @@ nav > ul{
     list-style: none;
     background-color: yellow;
 }
-
-
 
 
 
