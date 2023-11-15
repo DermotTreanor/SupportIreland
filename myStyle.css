@@ -198,23 +198,46 @@ body{
 
 #all-topic-boxes{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 
 .topic-box{
+    margin: 15px;
     display: flex;
     justify-content: space-around;
     width: 80%;
     height: 35vh;
     overflow: hidden;
-    background-color: rgba(255, 0, 0, 0.4);
+    /* background-color: rgba(255, 0, 0, 0.4); */
 }
-.topic-box img{
-    opacity: 1;
-}
+
 .topic-box div{
-    /* background-color: rgba(0, 255, 0, 1); */
+    width: 40%;
 }
+
+.topic-box-image{
+    background-image: url("./support-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.topic-box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+    font-size: 1.9em;
+    color: rgb(9, 120, 100);
+    text-align: center;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
