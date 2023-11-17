@@ -1,3 +1,3 @@
 function linkToGroup(){
-    window.location.href = "./alcohol-addiction.html"
+    window.location.href = "./alcoholics-anonymous-page.html"
 }
