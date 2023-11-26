@@ -6,20 +6,16 @@
 }
 
 @font-face {
-    font-family: "PlayFair";
-    src: url("./Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
-}
-@font-face {
     font-family: Satisfy-Regular;
     src: url("./Fonts/Satisfy/Satisfy-Regular.ttf");
 }
-
 @font-face {
-    font-family: "Italiana-Regular";
-    src: url("./Fonts/Italiana/Italiana-Regular.ttf");
+    font-family: "Montserrat-ExtraLight";
+    src: url("./Fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
 }
 
 body{
+    font-family: "Montserrat-ExtraLight";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +109,6 @@ body{
 
 
 #info-container{
-    font-family:"Italiana-Regular";
     text-align: center;
     padding-top: 2rem;
     display: flex;
