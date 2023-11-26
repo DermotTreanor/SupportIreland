@@ -17,9 +17,10 @@
 
 body{
     font-family: "Montserrat-ExtraLight";
-    display: flex;
+    /* Commented out these details as they broke the navbar */
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 nav{
