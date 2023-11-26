@@ -206,38 +206,39 @@ body{
 
 
 .topic-box{
-    margin: 15px;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     justify-content: space-around;
     width: 80%;
-    height: 35vh;
+    height: 40vh;
     overflow: hidden;
     /* background-color: rgba(255, 0, 0, 0.4); */
 }
 
-.topic-box div{
-    width: 40%;
-}
-
 .topic-box-image{
+    width: 50%;
+    border-radius: 4px;
     background-image: url("./support-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .topic-box-text{
+    width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: aquamarine;
-    font-size: 1.9em;
-    color: rgb(9, 120, 100);
-    text-align: center;
-
-    border-radius: 7px;
-
-    cursor: pointer;
-    transition: transform 0.5s;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.topic-text{
+    font-size: 3em;
+    width: 70%;
+}
+
+.topic-description{
+    font-size: 2em;
+    width: 110%;
+
+}
