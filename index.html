@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
         <meta charset="UTF-8">
@@ -101,8 +100,25 @@
 
 
         </div>
+
+
+
+        <script>
+                const nav_elements = document.getElementsByTagName("nav");
+                const nav_element = nav_elements[0];
+                
+                window.addEventListener("scroll", () => {
+                let currentPosition = window.scrollY;
+                let opacity = Math.min(0.85, currentPosition / 1000);
+                
+                nav_element.style.backgroundColor = `rgba(48, 143, 103, ${opacity})`;
+                });
+        </script>
+
+
 </body>
 </html>
+
 
 
 
