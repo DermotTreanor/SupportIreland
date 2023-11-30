@@ -109,8 +109,8 @@
                 
                 window.addEventListener("scroll", () => {
                 let currentPosition = window.scrollY;
-                let opacity = Math.max( 0.5 ,(1 - (currentPosition / 1000)))
-                nav_element.style.backgroundColor = `rgba(48, 143, 103, ${opacity})`;
+                let opacity = Math.max( 0.25 ,(0.8 - (currentPosition / 1000)))
+                nav_element.style.backgroundColor = `rgba(97, 200, 202, ${opacity})`;
                 });
         </script>
 
