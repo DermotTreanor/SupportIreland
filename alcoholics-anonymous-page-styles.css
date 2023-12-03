@@ -7,12 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body{
     font-family: "Montserrat-ExtraLight";
-    background-color: green;
+    background-image: linear-gradient(to top right, rgba(107, 233, 178, 0.9), rgb(48, 215, 215, 0.9));
+    /* background-color: green; */
+
+
 }
 .content-container{
     display: flex;
@@ -29,15 +32,14 @@ body{
 .meetings-section{
     height: 80vh;
     width: 80vw;
-    background-color: blanchedalmond;
-
-
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    box-shadow: -15px 15px 15px 11px rgba(0, 0, 0, 0.13);
 }
 
 .meetings-container{
     width: 100%;
     height: 80%;
-    background-color: rgb(58, 117, 117);
 }
 
 .individual-meeting{
@@ -45,7 +47,6 @@ body{
     justify-content: space-evenly;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: aliceblue;
     height: 20%;
 }
 
