@@ -24,9 +24,19 @@ body{
 }
 .heading-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 20vh;
+}
+.heading-underline{
+    background-color: black;
+    height: 1px;
+    width: 20%;
+    transition: width 1.4s ease;    
+}
+.heading-underline-post-animation{
+    width: 95% !important;
 }
 
 .meetings-section{
