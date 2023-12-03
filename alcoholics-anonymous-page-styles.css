@@ -29,7 +29,42 @@ body{
 }
 
 .meetings-container{
-    width: 80%;
+    width: 100%;
     height: 80%;
     background-color: rgb(58, 117, 117);
+}
+
+.individual-meeting{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aliceblue;
+    height: 20%;
+}
+
+.meeting-detail{
+    /* Not sure if this should be a flex-container or not.
+        They all just contain text. But I want it aligned veritcally... */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 15%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.county{
+
+}
+.day{
+
+}
+.time{
+
+}
+.address{
+    width: 40%;
 }
