@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url("./Fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +11,7 @@
 }
 
 body{
+    font-family: "Montserrat-ExtraLight";
     background-color: green;
 }
 .content-container{
