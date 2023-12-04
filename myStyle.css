@@ -226,6 +226,10 @@ body{
     flex-direction: column;
     font-family: 'Montserrat-ExtraLight', sans-serif;
 }
+.flipped > .topic-box-text{
+    align-items: end;
+    text-align: right;
+}
 
 .topic-text{
     font-size: 3em;
