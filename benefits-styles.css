@@ -78,7 +78,7 @@ nav a{
 }
 
 .key-points h2{
-    color: rgb(105, 89, 75);
+    color: rgb(4, 86, 78);
     font-family: "Ephesis";
     font-weight: 100;
     font-size: 4em;
@@ -93,8 +93,28 @@ nav a{
     height: 60%;
 }
 .key-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     height: 100%;
     width: 25%;
-    background-color: azure;
-    border-radius: 10px;
+    /* background-color: azure;
+    border-radius: 10px; */
+
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    box-shadow: -15px 15px 15px 11px rgba(0, 0, 0, 0.11);
 }
+.key-box span{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.85em;
+    text-align: center;
+    color: rgb(13, 151, 137);
+}
+
+
+
+
