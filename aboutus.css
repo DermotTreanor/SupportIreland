@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url("./Fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+}
+
+body{
+    font-family: "Montserrat-ExtraLight";
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(97, 200, 202, 0.8);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(2, 23, 14, 0.5); 
+    z-index: 2;
+}
+
+nav > ul{
+    font-size: 1.7rem;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
