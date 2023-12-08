@@ -59,6 +59,14 @@ body{
     padding-bottom: 15px;
     height: 20%;
 }
+.meeting-header{
+    font-weight: bold;
+}
+.meeting-header-underline{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
 
 .meeting-detail{
     /* Not sure if this should be a flex-container or not.
