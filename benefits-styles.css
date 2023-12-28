@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraLight";
+    src: url("./Fonts/Montserrat/static/Montserrat-ExtraLight.ttf")
+}
+@font-face {
+    font-family: "Ephesis";
+    src: url("./Fonts/Ephesis/Ephesis-Regular.ttf");
+}
+body{
+    font-family: "Montserrat-ExtraLight";
+
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(97, 200, 202, 0.8);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(2, 23, 14, 0.5); 
+    z-index: 2;
+}
+nav > ul{
+    font-size: 1.7rem;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgb(96, 198, 204), rgb(107, 223, 188));
+}
+.hero-buffer{
+    width: 100%;
+    height: 10%;
+}
+.hero-image{
+    width: 90%;
+    height: 90%;
+}
+.hero-vect{
+    background-image: url("./hero-vect.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.line-separator{
+    width: 100%;
+    height:1px;
+    background-color: rgb(42, 33, 0);
+}
+.key-points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(185, 227, 236);
+}
+
+.key-points h2{
+    color: rgb(4, 86, 78);
+    font-family: "Ephesis";
+    font-weight: 100;
+    font-size: 4em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.key-boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+}
+.key-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 25%;
+    /* background-color: azure;
+    border-radius: 10px; */
+
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    box-shadow: -15px 15px 15px 11px rgba(0, 0, 0, 0.11);
+}
+.key-box span{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.85em;
+    text-align: center;
+    color: rgb(13, 151, 137);
+}
+
+
+
+
