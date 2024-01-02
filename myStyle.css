@@ -105,7 +105,7 @@ nav a{
 
 #hero-image-container{
     overflow: hidden;
-    background-image: url("third-support.jpg");
+    background-image: url("./Images/index/third-support.jpg");
     /* background-image: url("support-unsplash.jpg"); */
     background-size: cover;
     background-position: center;
@@ -238,7 +238,7 @@ nav a{
 .topic-box-image{
     width: 50%;
     border-radius: 4px;
-    background-image: url("./support-unsplash.jpg");
+    background-image: url("./Images/index/support-unsplash.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
