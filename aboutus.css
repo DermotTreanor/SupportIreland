@@ -52,13 +52,15 @@ h1{
     padding: 0% 5%;
     width: 100%;
     height: 90vh;
-    gap: 0.5rem;
+    gap: 2rem;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
 .card{
     overflow:hidden;
-    background-color: rgba(221, 219, 255, 0.324);
+    border-left: solid 1px rgba(11, 105, 74, 0.9);
+    padding-left: 15px;
+    /* background-color: rgba(221, 219, 255, 0.324); */
 }
 
 .who-we-are{
@@ -76,6 +78,8 @@ h1{
     grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end:2;
+    border-left: solid 0px red;
+
 }
 .other{
     grid-column-start:3;
@@ -83,12 +87,19 @@ h1{
 
 }
 .contact-form{
+    display: flex;
     grid-column-start: 1;
     grid-column-end:7;
     grid-row-start:3;
     grid-row-end:-1;
 
 }
+
+
+
+
+
+
 
 .socials{
     grid-column-start:7;
