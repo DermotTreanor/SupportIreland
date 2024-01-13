@@ -63,6 +63,12 @@ h1{
     background-color: rgba(206, 239, 242, 0.649);
 }
 
+/* Targetting direct h2 children of the 'card' class */
+.card h2{
+    font-size: 1.6rem;
+}
+
+
 .who-we-are{
     grid-column-start:1;
     grid-column-end: 3;
@@ -89,15 +95,99 @@ h1{
     grid-column-end:8;
 
 }
-.contact-form{
-    display: flex;
+.contact-us{
     grid-column-start: 1;
     grid-column-end:7;
     grid-row-start:3;
     grid-row-end:-1;
+    padding-left: 0px;  /* Override the padding */
 
 }
+.contact-form{
+    height: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
 
+.contact-heading{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end: 2;
+    /* font-size: 2rem; */
+}
+.contact-info{
+    font-size: 1.4rem;
+    text-align: center;   
+}
+.field{
+    font-family: "Montserrat-ExtraLight";
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgba(206, 239, 242, 0.649);
+    border: 0px;
+    border-right: solid 1px rgba(11, 105, 74, 0.9);
+    border-bottom: solid 1px rgba(11, 105, 74, 0.9);
+}
+.contact-name{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end: 3;   
+}
+.name-field{
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.contact-email{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 4;
+}
+.email-field{
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.contact-group-suggest{
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.group-suggest-field{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+.contact-comment{
+    text-align: left;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    /* z-index: 1; */
+}
+.comment-field{
+    grid-column-start:2;
+    grid-column-end:8;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    border-bottom: solid 1px rgba(11, 105, 74, 0.9);
+    border-top: solid 1px rgba(11, 105, 74, 0.9);
+    border-left: solid 1px rgba(11, 105, 74, 0.9);
+
+
+}
 
 
 
